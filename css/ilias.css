@@ -61,8 +61,14 @@ a.il_ContainerItemTitle {
 #ilAdvSelListAnchorText_block_dd_pditems_0 {
     background-color: #5B6579;
 }
+
 .dropdown-toggle {
     background-color: #5293E1;
+    border-radius: 10px;
+}
+
+.dropdown {
+    border-radius: 10px;
 }
 
 .ilListItemIcon {
@@ -70,7 +76,8 @@ a.il_ContainerItemTitle {
     border-radius: 10px;
 }
 
-table.il_Block, div.il_Block {
+table.il_Block,
+div.il_Block {
     border-radius: 10px;
     background-color: #404959;
 }
@@ -78,6 +85,7 @@ table.il_Block, div.il_Block {
 a {
     color: #5293E1;
 }
+
 a:hover {
     color: #ffffff;
 }
@@ -87,8 +95,9 @@ body {
 }
 
 div.ilBlockInfo {
-    background-color: #292F3A;    
+    background-color: #292F3A;
 }
+
 .ilBlockContent .il-viewcontrol-section .btn.btn-default {
     background-color: transparent;
     border: 0;
@@ -99,12 +108,16 @@ div.ilBlockInfo {
 
 li {
     background-color: #5B6579;
+    color: #ffffff;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+
+.nav > li > a:hover,
+.nav > li > a:focus {
     text-decoration: none;
     background-color: #5293E1;
 }
+
 
 .nav > li > a {
     text-decoration: none;
@@ -121,12 +134,85 @@ li.active > a:focus {
     color: #ffffff;
 }
 
-#ilTopNav .navbar-nav > li > a:focus, #ilTopNav .navbar-nav > li > a:hover {
+#ilTopNav .navbar-nav > li > a:focus,
+#ilTopNav .navbar-nav > li > a:hover {
     background-color: transparent;
     color: #5293E1;
 }
 
 .dropdown-menu li a {
-color: #ffffff;
+    color: #ffffff;
+}
+
+
+#ilTopNav .dropdown-menu li a {
+    background-color: transparent;
+    color: #eeeeee;
+}
+
+#ilTopNav .dropdown-menu li a:hover {
+    background-color: #5293E1;
+    color: #ffffff;
+}
+
+
+.ilMainHeader {
+    background-color: #292F3A;
+}
+
+.hidden-xs {
+    color: #292F3A;
+    padding: 10%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+.ilObjListRow {
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.ilObjListRow:hover {
+    transform: scale(1.05);
+}
+
+.hidden-xs,
+.dropdown-toggle,
+.dropdown {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.dropdown:hover,
+.hidden-xs:hover,
+.hidden-xs:focus,
+.dropdown:focus,
+.hidden-xs:active,
+.dropdown:active {
+    transform: scale(1.1);
+}
+
+.ilContainerListItemOuter,
+.ilObjListRow {
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.ilPDBlockSubHeader {
+    height: 10%;
+}
+.ilCLI {
+    border-radius: 10px;
 }
 }
