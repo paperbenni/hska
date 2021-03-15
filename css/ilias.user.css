@@ -9,233 +9,264 @@
 ==/UserStyle== */
 
 @-moz-document domain("ilias.hs-karlsruhe.de") {
-#ilTopBar.ilTopBar {
-    padding: 0;
-    height: 40px;
-    top: 0;
-    z-index: 1040;
-    background-image: url(https://file.coffee/u/JR11nHrt8K.png);
-    background-repeat: repeat-x;
-}
+    #ilTopBar.ilTopBar {
+        padding: 0;
+        height: 40px;
+        top: 0;
+        z-index: 1040;
+        background-image: url(https://file.coffee/u/JR11nHrt8K.png);
+        background-repeat: repeat-x;
+    }
 
-#ilAll {
-    background-image: url(https://imgur.com/8tG9hsC.png);
-}
+    #ilAll {
+        background-image: url(https://imgur.com/8tG9hsC.png);
+    }
 
-a#il_mhead_t_focus {
-    color: #4AA2FF;
-}
+    div.panel-body {
+        background-color: #404959;
+    }
 
-#il_center_col div.il_Block {
-    background-color: #404959;
-}
+    a#il_mhead_t_focus {
+        color: #4AA2FF;
+    }
 
-.ilc_section_Special {
-    color: #404959;
-}
+    div.form-group > div {
+        background-color: #404959;
+        color: #ffffff;
+    }
 
-.hidden-xs {
-    color: #404959;
-}
+    h3.ilHeader {
+        color: #ffffff;
+    }
 
-a.ilAccAnchor,
-a.ilAccAnchor:hover {
-    text-decoration: none;
-    color: white;
-}
+    #il_center_col div.il_Block {
+        background-color: #404959;
+    }
 
-.col-xs-9 {
-    color: #404959;
-}
+    #headerimage {
+        background-color: #dddddd38;
+        border-radius: 10px;
+    }
 
-.ilContainerListItemOuter {
-    background-color: #5B6579;
-}
-
-.ilContainerListItemOuter:hover {
-    background-color: #5293E1;
-}
+    #tab_info_short > a {
+        background-color: #5293E1;
+    }
 
 
-a.il_ContainerItemTitle:hover {
-    color: #ffffff;
-}
+    .ilc_section_Special {
+        color: #404959;
+    }
 
-a.il_ContainerItemTitle {
-    color: #ffffff;
-}
+    .breadcrumb > li {
+        background-color: #29292970;
+    }
 
-.btn-group {
-    color: #4AA2FF;
-}
+    #headp_not_icon > img:nth-child(1) {
+        background-color: #ffffff30;
+        border-radius: 5px;
+    }
 
-.btn-link:hover,
-.btn-link:focus {
-    color: #4AA2FF;
-    text-decoration: underline;
-    background-color: transparent;
-}
-.btn-link {
-    color: #ffffff;
-    text-decoration: underline;
-    background-color: transparent;
-}
+    .hidden-xs {
+        color: #404959;
+    }
 
-#ilAdvSelListAnchorText_block_dd_pditems_0 {
-    background-color: #5B6579;
-}
+    a.ilAccAnchor,
+    a.ilAccAnchor:hover {
+        text-decoration: none;
+        color: white;
+    }
 
-.dropdown-toggle {
-    background-color: #5293E1;
-    border-radius: 10px;
-}
+    .col-xs-9 {
+        color: #404959;
+    }
 
-.dropdown {
-    border-radius: 10px;
-}
+    .ilContainerListItemOuter {
+        background-color: #5B6579;
+    }
 
-.ilListItemIcon {
-    background-color: #ffffff;
-    border-radius: 10px;
-}
-
-table.il_Block,
-div.il_Block {
-    border-radius: 10px;
-    background-color: #404959;
-}
-
-a {
-    color: #5293E1;
-}
-
-a:hover {
-    color: #ffffff;
-}
-
-body {
-    color: #ffffff;
-}
-
-div.ilBlockInfo {
-    background-color: #292F3A;
-}
-
-.ilBlockContent .il-viewcontrol-section .btn.btn-default {
-    background-color: transparent;
-    border: 0;
-    color: #5293E1;
-    padding: 3px 3px;
-}
+    .ilContainerListItemOuter:hover {
+        background-color: #5293E1;
+    }
 
 
-li {
-    background-color: #5B6579;
-    color: #ffffff;
-}
+    a.il_ContainerItemTitle:hover {
+        color: #ffffff;
+    }
+
+    a.il_ContainerItemTitle {
+        color: #ffffff;
+    }
+
+    .btn-group {
+        color: #4AA2FF;
+    }
+
+    .btn-link:hover,
+    .btn-link:focus {
+        color: #4AA2FF;
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .btn-link {
+        color: #ffffff;
+        text-decoration: underline;
+        background-color: transparent;
+    }
+
+    #ilAdvSelListAnchorText_block_dd_pditems_0 {
+        background-color: #5B6579;
+    }
+
+    .dropdown-toggle {
+        background-color: #5293E1;
+        border-radius: 10px;
+    }
+
+    .dropdown {
+        border-radius: 10px;
+    }
+
+    .ilListItemIcon {
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+
+    table.il_Block,
+    div.il_Block {
+        border-radius: 10px;
+        background-color: #404959;
+    }
+
+    a {
+        color: #5293E1;
+    }
+
+    a:hover {
+        color: #ffffff;
+    }
+
+    body {
+        color: #ffffff;
+    }
+
+    div.ilBlockInfo {
+        background-color: #292F3A;
+    }
+
+    .ilBlockContent .il-viewcontrol-section .btn.btn-default {
+        background-color: transparent;
+        border: 0;
+        color: #5293E1;
+        padding: 3px 3px;
+    }
 
 
-.nav > li > a:hover,
-.nav > li > a:focus {
-    text-decoration: none;
-    background-color: #5293E1;
-}
+    li {
+        background-color: #5B6579;
+        color: #ffffff;
+    }
 
 
-.nav > li > a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-li.active > a:focus {
-    background-color: #5293E1;
-    color: white;
-    border: 0 none;
-}
-
-#ilTopNav .navbar-nav > li > a {
-    color: #ffffff;
-}
-
-#ilTopNav .navbar-nav > li > a:focus,
-#ilTopNav .navbar-nav > li > a:hover {
-    background-color: transparent;
-    color: #5293E1;
-}
-
-.dropdown-menu li a {
-    color: #ffffff;
-}
+    .nav > li > a:hover,
+    .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #5293E1;
+    }
 
 
-#ilTopNav .dropdown-menu li a {
-    background-color: transparent;
-    color: #eeeeee;
-}
+    .nav > li > a {
+        text-decoration: none;
+        color: #ffffff;
+    }
 
-#ilTopNav .dropdown-menu li a:hover {
-    background-color: #5293E1;
-    color: #ffffff;
-}
+    li.active > a:focus {
+        background-color: #5293E1;
+        color: white;
+        border: 0 none;
+    }
+
+    #ilTopNav .navbar-nav > li > a {
+        color: #ffffff;
+    }
+
+    #ilTopNav .navbar-nav > li > a:focus,
+    #ilTopNav .navbar-nav > li > a:hover {
+        background-color: transparent;
+        color: #5293E1;
+    }
+
+    .dropdown-menu li a {
+        color: #ffffff;
+    }
 
 
-.ilMainHeader {
-    background-color: #292F3A;
-}
+    #ilTopNav .dropdown-menu li a {
+        background-color: transparent;
+        color: #eeeeee;
+    }
 
-.hidden-xs {
-
-    padding: 10%;
-    background-color: #ffffff;
-    border-radius: 10px;
-}
+    #ilTopNav .dropdown-menu li a:hover {
+        background-color: #5293E1;
+        color: #ffffff;
+    }
 
 
-.ilObjListRow {
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
+    .ilMainHeader {
+        background-color: #292F3A;
+    }
 
-.ilObjListRow:hover {
-    transform: scale(1.05);
-}
+    .hidden-xs {
 
-.hidden-xs,
-.dropdown-toggle,
-.dropdown {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
+        padding: 10%;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
 
-.dropdown:hover,
-.hidden-xs:hover,
-.hidden-xs:focus,
-.dropdown:focus,
-.hidden-xs:active,
-.dropdown:active {
-    transform: scale(1.1);
-}
+    .ilObjListRow {
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        transition-duration: 0.3s;
+        transition-property: transform;
+    }
 
-.ilContainerListItemOuter,
-.ilObjListRow {
-    padding-top: 5px;
-    border-radius: 10px;
-}
+    .ilObjListRow:hover {
+        transform: scale(1.05);
+    }
 
-.ilPDBlockSubHeader {
-    height: 10%;
-}
-.ilCLI {
-    border-radius: 10px;
-}
+    .hidden-xs,
+    .dropdown-toggle,
+    .dropdown {
+        display: inline-block;
+        vertical-align: middle;
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        transition-duration: 0.3s;
+        transition-property: transform;
+    }
+
+    .dropdown:hover,
+    .hidden-xs:hover,
+    .hidden-xs:focus,
+    .dropdown:focus,
+    .hidden-xs:active,
+    .dropdown:active {
+        transform: scale(1.1);
+    }
+
+    .ilContainerListItemOuter,
+    .ilObjListRow {
+        padding-top: 5px;
+        border-radius: 10px;
+    }
+
+    .ilPDBlockSubHeader {
+        height: 10%;
+    }
+    .ilCLI {
+        border-radius: 10px;
+    }
 }
