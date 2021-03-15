@@ -34,6 +34,10 @@ a.ilAccAnchor:hover {
     color: white;
 }
 
+.col-xs-9 {
+    color: #404959;
+}
+
 .ilContainerListItemOuter {
     background-color: #5B6579;
 }
