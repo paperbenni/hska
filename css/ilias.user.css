@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name        Darkilias
+@namespace   paperbenni
+@version     0.0.1
+@homepageURL https://github.com/paperbenni/hska
+@updateURL   https://raw.githubusercontent.com/paperbenni/hska/main/css/ilias.user.css
+@license     CC-BY-SA-4.0
+@author      paperbenni
+==/UserStyle== */
+
 @-moz-document domain("ilias.hs-karlsruhe.de") {
 #ilTopBar.ilTopBar {
     padding: 0;
