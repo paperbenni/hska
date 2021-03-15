@@ -7,6 +7,7 @@
     background-image: url(https://file.coffee/u/JR11nHrt8K.png);
     background-repeat: repeat-x;
 }
+
 #ilAll {
     background-image: url(https://imgur.com/8tG9hsC.png);
 }
@@ -17,6 +18,14 @@ a#il_mhead_t_focus {
 
 #il_center_col div.il_Block {
     background-color: #404959;
+}
+
+.ilc_section_Special {
+    color: #404959;
+}
+
+.hidden-xs {
+    color: #404959;
 }
 
 a.ilAccAnchor,
@@ -161,7 +170,7 @@ li.active > a:focus {
 }
 
 .hidden-xs {
-    color: #292F3A;
+
     padding: 10%;
     background-color: #ffffff;
     border-radius: 10px;
