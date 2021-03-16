@@ -30,6 +30,10 @@
         color: #4AA2FF;
     }
 
+    .ilTimelinePanel > div {
+        background-color: #404959;
+    }
+
     div.form-group > div {
         background-color: #404959;
         color: #ffffff;
